@@ -4,36 +4,98 @@ export default class Footer extends Component {
 
   render() {
     return (
-        <footer className="container py-5">
-        <div className="row">
-          <div className="col-12 col-md">
-            <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" className="d-block mb-2"><circle cx={12} cy={12} r={10} /><line x1="14.31" y1={8} x2="20.05" y2="17.94" /><line x1="9.69" y1={8} x2="21.17" y2={8} /><line x1="7.38" y1={12} x2="13.12" y2="2.06" /><line x1="9.69" y1={16} x2="3.95" y2="6.06" /><line x1="14.31" y1={16} x2="2.83" y2={16} /><line x1="16.62" y1={12} x2="10.88" y2="21.94" /></svg>
-            <small className="d-block mb-3 text-muted">© 2017-2018</small>
+        <footer id="footer">
+        <a className="goToTop font-additional color-main text-uppercase" href="#" id="scrollTop">
+          <i className="fa fa-angle-up" />
+          <span>Top</span>
+        </a>
+        <div className="footer-top">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12 clearfix wow fadeInLeft" data-wow-delay="0.3s">
+                <a href="index.html" className="footer-top_logo" />
+                <div className="footer-top_container clearfix">
+                  <span className="font-main font-weight-normal color-additional">Proin est Pellentesque risus magna vulput vitae sodales uam morbi non sem lacus por mollis. Nunc condime ntum metus eud Ino lestie. Sed consectetuer. Lorem ipsum dolor amet ectetur adipisicing elit sed doincl.</span>
+                  <ul className="footer-social-list">
+                    <li><a href="#"><span className="social_facebook" aria-hidden="true" /></a></li>
+                    <li><a href="#"><span className="social_twitter" aria-hidden="true" /></a></li>
+                    <li><a href="#"><span className="social_googleplus" aria-hidden="true" /></a></li>
+                    <li><a href="#"><span className="social_pinterest" aria-hidden="true" /></a></li>
+                    <li><a href="#"><span className="social_youtube" aria-hidden="true" /></a></li>
+                    <li><a href="#"><span className="social_instagram" aria-hidden="true" /></a></li>
+                  </ul>
+                </div>
+              </div>
+              <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12 clearfix wow fadeInUp" data-wow-delay="0.3s">
+                <h4 className="footer-top_title color-main font-additional font-weight-bold text-uppercase">QUICK LINKS</h4>
+                <div className="footer-top_container clearfix">
+                  <ul className="footer-nav">
+                    <li><a href="#" className="font-main font-weight-normal color-additional"><i className="fa fa-angle-right customColor" /> My Account</a></li>
+                    <li><a href="#" className="font-main font-weight-normal color-additional"><i className="fa fa-angle-right customColor" /> Order History</a></li>
+                    <li><a href="#" className="font-main font-weight-normal color-additional"><i className="fa fa-angle-right customColor" /> My Wishlist</a></li>
+                    <li><a href="#" className="font-main font-weight-normal color-additional"><i className="fa fa-angle-right customColor" /> Order Tracking</a></li>
+                    <li><a href="#" className="font-main font-weight-normal color-additional"><i className="fa fa-angle-right customColor" /> Shipping Information</a></li>
+                    <li><a href="#" className="font-main font-weight-normal color-additional"><i className="fa fa-angle-right customColor" /> Gift Vouchers</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12 clearfix wow fadeInUp" data-wow-delay="0.3s">
+                <h4 className="footer-top_title color-main font-additional font-weight-bold text-uppercase">INFORMATION</h4>
+                <div className="footer-top_container clearfix">
+                  <ul className="footer-nav">
+                    <li><a href="#" className="font-main font-weight-normal color-additional"><i className="fa fa-angle-right customColor" /> About us</a></li>
+                    <li><a href="#" className="font-main font-weight-normal color-additional"><i className="fa fa-angle-right customColor" /> Delivery Information</a></li>
+                    <li><a href="#" className="font-main font-weight-normal color-additional"><i className="fa fa-angle-right customColor" /> Terms &amp; Conditions</a></li>
+                    <li><a href="#" className="font-main font-weight-normal color-additional"><i className="fa fa-angle-right customColor" /> Privacy Policy</a></li>
+                    <li><a href="#" className="font-main font-weight-normal color-additional"><i className="fa fa-angle-right customColor" /> Contact us</a></li>
+                    <li><a href="#" className="font-main font-weight-normal color-additional"><i className="fa fa-angle-right customColor" /> Return Policy</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12 clearfix wow fadeInRight" data-wow-delay="0.3s">
+                <h4 className="footer-top_title color-main font-additional font-weight-bold text-uppercase">GET IN TOUCH</h4>
+                <div className="footer-top_container clearfix">
+                  <ul className="footer-contact">
+                    <li className="font-main font-weight-normal color-additional">
+                      <span className="icon_pin" aria-hidden="true" />
+                      23 Zevra Hall, Luton Street <br />New York 226688
+                    </li>
+                    <li className="font-main font-weight-normal color-additional oneLine">
+                      <span className="icon_phone" aria-hidden="true" />
+                      +10 (987) 6541 023
+                    </li>
+                    <li className="font-main font-weight-normal color-additional oneLine">
+                      <span className="icon_mail" aria-hidden="true" />
+                      info@templines.com
+                    </li>
+                    <li className="font-main font-weight-normal color-additional">
+                      <span className="icon_clock" aria-hidden="true" />
+                      Mon to Sat : 9:25 AM - 7:30 PM <br />Sun : 11:30 PM - 4:30 PM
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </div>
-          <div className="col-6 col-md">
-            <h5>Features</h5>
-            <ul className="list-unstyled text-small">
-              <li><a className="text-muted" href="#">Cool stuff</a></li>
-              <li><a className="text-muted" href="#">Random feature</a></li>
-
-
-            </ul>
+        </div>
+        <div className="footer-bottom">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12 clearfix">
+                <span className="footer_copyright color-additional font-main font-weight-light wow fadeInLeft" data-wow-delay="0.3s">Created With <span className="icon_heart customColor" aria-hidden="true" /> by <span className="font-main font-weight-semibold">Templines</span> © 2015 All rights reserved.</span>
+              </div>
+              <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12 clearfix">
+                <ul className="footer-payments pull-right wow fadeInRight" data-wow-delay="0.3s">
+                  <li><img src="assets/media/payments/1.jpg" alt="Payments" /></li>
+                  <li><img src="assets/media/payments/2.jpg" alt="Payments" /></li>
+                  <li><img src="assets/media/payments/3.jpg" alt="Payments" /></li>
+                  <li><img src="assets/media/payments/4.jpg" alt="Payments" /></li>
+                  <li><img src="assets/media/payments/5.jpg" alt="Payments" /></li>
+                  <li><img src="assets/media/payments/6.jpg" alt="Payments" /></li>
+                </ul>
+              </div>
+            </div>
           </div>
-          <div className="col-6 col-md">
-            <h5>Resources</h5>
-            <ul className="list-unstyled text-small">
-              <li><a className="text-muted" href="#">Resource</a></li>
-              <li><a className="text-muted" href="#">Resource name</a></li>
-            </ul>
-          </div>
-          <div className="col-6 col-md">
-            <h5>Resources</h5>
-            <ul className="list-unstyled text-small">
-              <li><a className="text-muted" href="#">Business</a></li>
-              <li><a className="text-muted" href="#">Education</a></li>
-            </ul>
-          </div>
-
         </div>
       </footer>
     )

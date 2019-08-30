@@ -1,5 +1,5 @@
 
-  .site-header {
+  /* .site-header {
     background-color: rgba(0, 0, 0, .85);
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px);
@@ -13,4 +13,15 @@ main {
 .dropdown:hover .dropdown-menu {
     display: block;
     margin-top: 0;
+ } */
+
+ .naaBr {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+
+ }
+ .nav {
+    display: inline;
  }
