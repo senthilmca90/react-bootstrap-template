@@ -8,6 +8,7 @@ import Header from './common/Header';
 import Aboutus from './components/Aboutus/Aboutus';
 import  Contactus  from './components/Contactus/Contactus';
 import  Product  from './components/Product/Product';
+import ProductDetail from './components/Product/ProductDetail';
 
 
 class Routes extends Component {
@@ -26,6 +27,7 @@ class Routes extends Component {
                 <Route exact path="/about-us" component={Aboutus} label="Aboutus"/>
                 <Route exact path="/product" component={Product} label="Product"/>
                 <Route exact path="/contact-us" component={Contactus} label="Contactus"/>
+                <Route exact path="/productdetails" component={ProductDetail} label="P"/>
 
             </Switch>
         <Footer />

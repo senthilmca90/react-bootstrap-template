@@ -4,7 +4,7 @@ import 'rc-slider/assets/index.css';
 import 'rc-tooltip/assets/bootstrap.css';
 import Tooltip from 'rc-tooltip';
 import Slider from 'rc-slider';
-
+import {Link} from 'react-router-dom';
 
 const createSliderWithTooltip = Slider.createSliderWithTooltip;
 const Range = createSliderWithTooltip(Slider.Range);
@@ -197,10 +197,10 @@ export class Product extends Component {
                                   </a>
                                 </li>
                                 <li>
-                                  <a href="#">
+                                  <Link to="productdetails">
                                     <span className="icon-eye" aria-hidden="true" />
                                     <div className="product-item_tip font-additional font-weight-normal text-uppercase customBgColor color-main transition">QUICK VIEW</div>
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
                                   <a href="#">
@@ -210,10 +210,10 @@ export class Product extends Component {
                                 </li>
                               </ul>
                             </div>
-                            <a href="product-details.html" className="product-item_footer">
+                            <Link to="productdetails" className="product-item_footer">
                               <div className="product-item_title font-additional font-weight-bold text-center text-uppercase">WOMEN GOWN</div>
                               <div className="product-item_price font-additional font-weight-normal customColor">$240.00 <span>$265.00</span></div>
-                            </a>
+                            </Link>
                           </div>
                         </li>
                         <li className="wow fadeInUp" data-wow-delay="0.3s">
